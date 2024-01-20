@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    font-size: smaller;
+}
+.bb{
+    display: inline-block;
+}
+.navi{
+    background-color:cornflowerblue;
+    color: white;
+    display: flex;
+    height: 50px;
+}
+.vit{
+    margin: 10px;
+    height: 70px;
+}
+.navimg{
+    float: left;
+    height: 50px;
+    background-color: cornflowerblue;
+    color: white;
+}
+.hedd{
+    text-align: center;
+}
+.hee{
+    color: cornflowerblue;
+}
+.bb1{
+}
+.ss1,.ss2,.ss3,.ss4{
+    display: inline-block;
+    border: 2px solid white;
+    font-family: Arial, sans-serif;
+    font-size: smaller;
+    height: 100px;
+    width: 19%;
+    padding: 10px;
+    margin: 30px;
+    margin-bottom: 0;
+    box-shadow: 20px 20px 30px #f5f5f5;
+}
+.ss1{
+    color: blue;
+    border-top-color: blue;
+}
+.ss2{
+    color: darkgoldenrod;
+    border-top-color:  darkgoldenrod;   
+}
+.ss3{
+    color: green;
+    border-top-color: green;
+}
+.ss4{
+    color: lightblue;
+    border-top-color: lightblue;
+}
+
+.mm{
+    float: left;
+}
+.tt{
+    text-align: right;
+}
+.col1{
+    background-color: blue;
+    float: right;
+}
+.col2{
+    background-color: darkgoldenrod;
+    float: right;
+}
+.col3{
+    background-color: green;
+    float: right;
+}
+.col4{
+    background-color: lightblue;
+    float: right;
+}
+.ddd{
+    display: inline-block;
+}
+.cc,.cc1{
+    display: inline-block;
+    width: 45%;
+    height: 50%;
+    font-family: Arial, sans-serif;
+    font-size: small;               
+    padding: 0px;
+    margin: 20px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 10px #f5f5f5;
+    border-top-color: maroon;
+}
+.ee{
+    color: maroon;
+    background-color: #f5f5f5;
+}
+.btm{
+    background-color: white;
+}
+.col1:hover{
+    background-color: lightskyblue;
+}
+.col2:hover{
+    background-color: lightgoldenrodyellow;
+}
+.col3:hover{
+    background-color: lightgreen;
+}
+.col4:hover{
+    background-color: lightslategray;
+}
